@@ -35,16 +35,21 @@ export default function JoinUs() {
             <li>✅ Led by experienced and passionate instructors</li>
           </ul>
 
-          <Link href="/register">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-yellow-400 text-[#0a1f44] px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:bg-yellow-300 transition"
-            >
-              Register Now
-            </motion.button>
-          </Link>
-        </motion.div>
+         <a
+  href=" https://forms.gle/8P8gqHuPJ2ZqUa3RA"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <motion.button
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    className="bg-yellow-400 text-[#0a1f44] px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:bg-yellow-300 transition"
+  >
+    Register Now
+  </motion.button>
+</a>
+</motion.div>
+
 
         {/* Right – Image */}
         <motion.div
