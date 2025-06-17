@@ -5,12 +5,12 @@ import { motion } from 'framer-motion';
 const team = [
   {
     name: 'Khristine Githige',
-    role: 'Founder & Lead Instructor',
+    role: 'Software Engineer & Lead Instructor',
     image: '/images/tutor2.jpeg',
   },
   {
     name: 'Everlynn Muthoni',
-    role: 'Curriculum Developer',
+    role: 'Data Analyst & Curriculum Developer',
     image: '/images/tutor4.jpeg',
   },
 ];
