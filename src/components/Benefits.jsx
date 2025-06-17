@@ -9,11 +9,7 @@ const benefits = [
     title: 'Create Practical Digital Projects',
     description: 'Kids learn to build apps, games, and simulations that reflect real-life challenges and creativity.',
   },
-  {
-    icon: <FaPuzzlePiece className="text-yellow-400 text-4xl mb-4" />,
-    title: 'Boosts Math & Science Thinking',
-    description: 'Enhances understanding of STEM subjects through logic-based and hands-on digital problem-solving.',
-  },
+  
   {
     icon: <FaBrain className="text-yellow-400 text-4xl mb-4" />,
     title: 'Supports School Success',
