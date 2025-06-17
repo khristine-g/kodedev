@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function About() {
   return (
-    <section className="bg-white py-24 px-6 text-[#0a1f44]">
+    <section id="about" className="bg-white py-24 px-6 text-[#0a1f44]">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         
         {/* Left - Text Content */}

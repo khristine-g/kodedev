@@ -1,38 +1,51 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FaLaptopCode, FaRobot, FaMobileAlt, FaLightbulb, FaGlobe, FaBrain } from 'react-icons/fa';
+import { 
+  FaLaptopCode, 
+  FaRobot, 
+  FaGamepad, 
+  FaLightbulb, 
+  FaGlobe, 
+  FaBrain 
+} from 'react-icons/fa';
 
 const courses = [
   {
     icon: <FaLaptopCode className="text-4xl text-yellow-400" />,
-    title: 'Coding Basics Made Fun',
-    description: 'Learn fundamental coding concepts through games, drag-and-drop logic, and creative activities.',
-  },
-  {
-    icon: <FaLightbulb className="text-4xl text-yellow-400" />,
-    title: 'Creative Programming Foundations',
-    description: 'Use visual coding platforms to build stories, animations, and basic problem-solving skills.',
+    title: 'Coding Basics (Scratch & Blockly)',
+    description: 'Kids learn logic and storytelling using beginner-friendly platforms like Scratch and Blockly.',
+    badge: 'Beginner Friendly',
   },
   {
     icon: <FaGlobe className="text-4xl text-yellow-400" />,
-    title: 'Build Your First Website',
-    description: 'Design and code simple websites using HTML and CSS in a kid-friendly environment.',
+    title: ' Web Development for Kids',
+    description: 'Design colorful websites using HTML and CSS in a playful and guided environment.',
+    badge: 'Ages 8–12',
   },
   {
-    icon: <FaMobileAlt className="text-4xl text-yellow-400" />,
-    title: 'Mobile App Development',
-    description: 'Create simple apps using block-based tools perfect for young beginners.',
+    icon: <FaGamepad className="text-4xl text-yellow-400" />,
+    title: ' Game Development for Kids',
+    description: 'Learn how to create interactive games using Scratch and other visual coding platforms.',
+    badge: 'Fun & Interactive',
   },
   {
     icon: <FaRobot className="text-4xl text-yellow-400" />,
-    title: 'Simple Robotics & Smart Tech',
-    description: 'Explore robotics, sensors, and automation using simulators and basic kits.',
+    title: ' Robotics & STEM Challenges',
+    description: 'Explore basic robotics using virtual kits while learning how tech solves real-world problems.',
+    badge: 'STEM Focused',
   },
   {
     icon: <FaBrain className="text-4xl text-yellow-400" />,
-    title: 'Intro to AI & Tech Challenges',
-    description: 'Discover the basics of Artificial Intelligence and build fun innovation projects.',
+    title: ' AI for Kids (Intro to Artificial Intelligence)',
+    description: 'Kids get hands-on with machine learning concepts like image recognition and smart decisions.',
+    badge: 'Future-Ready',
+  },
+  {
+    icon: <FaLightbulb className="text-4xl text-yellow-400" />,
+    title: ' Creative Tech Projects',
+    description: 'Blend tech and art by building animations, digital stories, and fun interactive games.',
+    badge: 'Creative Thinking',
   },
 ];
 
@@ -71,6 +84,9 @@ export default function Courses() {
             viewport={{ once: true }}
           >
             <div className="mb-4">{course.icon}</div>
+            <span className="inline-block bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full mb-3">
+              {course.badge}
+            </span>
             <h3 className="text-2xl font-semibold mb-2">{course.title}</h3>
             <p className="text-gray-600">{course.description}</p>
           </motion.div>

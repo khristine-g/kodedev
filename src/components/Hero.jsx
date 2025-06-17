@@ -48,7 +48,7 @@ export default function Hero() {
           transition={{ delay: 0.4 }}
         >
           <Link href="#courses">
-            <button className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold text-lg px-8 py-4 rounded-full shadow-md transition">
+            <button className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold text-lg px-8 py-4 rounded-full shadow-md transition" >
               Explore Courses
             </button>
           </Link>
