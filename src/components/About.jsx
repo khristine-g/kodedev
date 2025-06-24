@@ -18,8 +18,9 @@ export default function About() {
             About <span className="text-yellow-400">KODE.DEV</span>
           </h2>
           <p className="text-lg lg:text-xl text-gray-700 mb-6 leading-relaxed">
-            At <span className="font-semibold">KODE.DEV</span>, we’re passionate about inspiring the next generation of innovators through engaging, age-appropriate tech education. 
-            Our mission is to make coding, AI, and digital skills exciting and accessible for kids ages 5 to 12 — no prior experience needed!
+            At <span className="font-semibold">KODE.DEV</span>, we’re on a mission to spark curiosity, creativity, and confidence in your child through tech education that’s built for their future — and designed for now.
+
+We believe every child deserves the chance to explore coding, robotics, and AI in a safe, supportive, and fun environment — no experience required. Our programs are made for kids ages 5 to 12, turning screen time into skill-building time.
           </p>
           <p className="text-lg lg:text-xl text-gray-700 leading-relaxed">
             Through interactive lessons, creative projects, and hands-on exploration, we empower kids to think critically, solve problems, and build real tech solutions — preparing them for a future powered by innovation.
